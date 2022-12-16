@@ -1,0 +1,116 @@
+/* Write your CSS here */
+.bg-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  background-color: #150b3e;
+  width: 40%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+.profile {
+  margin-top: 20px;
+  display: flex;
+  margin-left: 10px;
+}
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 45px;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  font-family: 'Roboto';
+  font-size: 30px;
+  padding-top: 22px;
+  text-align: center;
+}
+.heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #d4d2db;
+  margin-left: 10px;
+  font-weight: 400;
+}
+.balance-card {
+  display: flex;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+.your-balance {
+  font-family: 'Roboto';
+  font-size: 35px;
+  color: #585076;
+}
+.amount-card {
+  display: flex;
+  flex-direction: column;
+}
+.count {
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+.in-rupees {
+  font-family: 'Roboto';
+  color: #585076;
+  font-size: 20px;
+}
+.withdraw {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.choose-sum {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #585076;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.button-card {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.button {
+  height: 35px;
+  width: 200px;
+  background-color: #382f5a;
+  color: #d4d2db;
+  border: 1px solid #d4d2db;
+  border-radius: 5px;
+  margin-right: 15px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+}
+.denominations-list {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 20px;
+}
+.withdraw-card {
+  display: flex;
+  flex-direction: column;
+}
